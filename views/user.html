@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+	<p><%= email %></p>
+	<p><%= name %></p>
+	<div>
+		<img src="<%= photo %>"/>
+	</div>
+	
+	<p>Siarhei_Mik</p>
+	<p>Siarhei_Mikhailau@epam.com</p>
+	
+	<form method="post" action="/user">
+		<label>
+			User:
+			<input name="user" type="text"/>
+		</label>
+		<input type="submit"/>
+	</form>
+</body>
+</html>

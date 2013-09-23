@@ -1,0 +1,16 @@
+{
+  "name": "Auth",
+  "version": "0.0.0",
+  "description": "Authentification to PMC",
+  "dependencies": {
+    "express": "~3.3.7",
+    "request": "~2.27.0",
+    "ejs": "~0.8.4",
+    "xmldom": "~0.1.16",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}

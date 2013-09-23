@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+	<% for (var i=0; i<users.length; i++) { %>
+		<p><%= users[i].email %></p>
+		<p><%= users[i].name %></p>
+		<div>
+			<img src="<%= users[i].photo %>"/>
+		</div>
+	<% } %>
+	
+	<p>Siarhei_Mik</p>
+	<p>Siarhei_Mikhailau@epam.com</p>
+	
+	<form method="post" action="/user">
+		<label>
+			User:
+			<input name="user" type="text"/>
+		</label>
+		<input type="submit"/>
+	</form>
+</body>
+</html>
